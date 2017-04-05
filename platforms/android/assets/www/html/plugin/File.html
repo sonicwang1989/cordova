@@ -1,0 +1,12 @@
+<header-bar title="title" on-back="onBack()"></header-bar>
+<div class="content">
+    <ul class="link-list">
+        <li>
+            <a ng-click="parentDir()"><i class="iconfont icon-dir"></i>上级</a>
+        </li>
+        <li ng-repeat="file in files">
+            <a ng-click="listDir(file)"><i ng-class="{true:'iconfont icon-file',false:'iconfont icon-dir'}[file.isFile]"></i> {{file.name}}</a>
+        </li>
+    </ul>
+</div>
+<footer-bar></footer-bar>
