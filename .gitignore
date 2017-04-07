@@ -1,3 +1,9 @@
 bower_components
 /node_modules
 .vs
+images
+script
+chcp.json
+chcp.manifest
+css
+html
