@@ -22,4 +22,5 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <icon height="96" src="res/icon.png" width="96" />
+    <preference name="loadUrlTimeoutValue" value="60000" />
 </widget>

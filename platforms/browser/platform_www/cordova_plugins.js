@@ -536,6 +536,22 @@ module.exports = [
         "file": "plugins/cordova-plugin-x-toast/test/tests.js",
         "id": "cordova-plugin-x-toast.tests",
         "pluginId": "cordova-plugin-x-toast"
+    },
+    {
+        "file": "plugins/cordova-hot-code-push-plugin/www/chcp.js",
+        "id": "cordova-hot-code-push-plugin.chcp",
+        "pluginId": "cordova-hot-code-push-plugin",
+        "clobbers": [
+            "chcp"
+        ]
+    },
+    {
+        "file": "plugins/cordova-hot-code-push-local-dev-addon/www/chcpLocalDev.js",
+        "id": "cordova-hot-code-push-local-dev-addon.chcpLocalDev",
+        "pluginId": "cordova-hot-code-push-local-dev-addon",
+        "clobbers": [
+            "chcpLocalDev"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -560,7 +576,9 @@ module.exports.metadata =
     "cordova-plugin-vibration": "2.1.4",
     "cordova-sqlite-storage": "2.0.2",
     "cordova-plugin-http": "1.2.0",
-    "cordova-plugin-x-toast": "2.6.0"
+    "cordova-plugin-x-toast": "2.6.0",
+    "cordova-hot-code-push-plugin": "1.5.2",
+    "cordova-hot-code-push-local-dev-addon": "0.4.2"
 }
 // BOTTOM OF METADATA
 });

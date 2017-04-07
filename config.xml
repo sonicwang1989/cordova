@@ -42,4 +42,10 @@
     <plugin name="cordova-sqlite-storage" spec="~2.0.2" />
     <plugin name="cordova-plugin-http" spec="~1.2.0" />
     <plugin name="cordova-plugin-x-toast" spec="~2.6.0" />
+    <plugin name="cordova-hot-code-push-plugin" spec="~1.5.2" />
+    <chcp>
+      <auto-download enabled="true" />
+      <auto-install enabled="true" />
+      <config-file url="http://192.168.148.245:8080/chcp.json"/>
+    </chcp>
 </widget>

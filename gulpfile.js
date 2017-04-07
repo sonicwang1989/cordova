@@ -19,7 +19,7 @@ gulp.task('copyhtml', function () {
 });
 //拷贝图片
 gulp.task('copyimages', function () {
-    return gulp.src('./src/images/*/*.*').pipe(gulp.dest('./www/images'));
+    return gulp.src('./src/images/**/*.*').pipe(gulp.dest('./www/images'));
 });
 //拷贝css
 gulp.task('copycss', function () {
